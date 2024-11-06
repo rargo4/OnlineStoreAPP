@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineStore.Accessors\OnlineStore.Accessors.csproj" />
+    <ProjectReference Include="..\OnlineStore.Engines\OnlineStore.Engines.csproj" />
+  </ItemGroup>
+
+</Project>
